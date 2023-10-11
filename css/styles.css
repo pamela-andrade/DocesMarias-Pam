@@ -1,0 +1,290 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+}
+
+h2 {
+	color: #C41D38;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+h5 {
+	color: #39181e;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+p {
+	font-size: 1em;
+	font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+	line-height: 0.35em auto 5em; 
+}
+
+/* ---------Cabeçalho--------*/
+
+body {
+	background-color: #F5F5F5;
+	overflow-x: hidden;
+}
+
+.navbar-expand-md {
+	background-color:#E8C1BA;
+	padding: 15px 0;
+}
+
+a.nav-link{
+	color: #C41D38;
+	font-size: 1.3rem;
+}
+
+
+.nav-link:hover {
+	text-decoration: underline;
+	color:#C41D38;
+	text-underline-offset: 9px;
+	transition: all 0.5s ease	;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+
+/* ---------Imagem Logo--------*/
+
+#img2 {
+	
+	position: absolute;
+	left: 122px;
+	top: 28px;
+	width: 111px;
+	z-index: 5;
+}
+
+
+
+
+/* ---------Imagem whatsapp--------*/
+
+#img1 {
+	width: 80px;
+}
+
+#whatsapp {
+    position: fixed;
+    bottom: 0.5%; /* Ajuste essa propriedade para controlar a distância a partir da parte inferior */
+    left: 94%; /* Ajuste essa propriedade para controlar a distância a partir da esquerda */
+    z-index: 999; /* Defina um valor alto para garantir que o ícone esteja acima de outros elementos */
+}
+
+
+
+
+
+/* ---------Banner 1--------*/
+
+.bg-hero {
+	width: 100%;
+	height: 800px;
+	background: url(../Imagens/banner2.png) no-repeat center center;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	z-index: 2;
+}
+
+.bg-hero:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50rem;
+    background: rgba(232, 193, 186, 0.452);
+	z-index: 3;
+}
+
+.bg-hero-content{
+	position: relative;
+	z-index: 5;
+	color: #C41D38;
+}
+
+.bg-hero-content h1{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 90px;
+	line-height: 113px;
+}
+
+.bg-hero-content p{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+	
+}
+
+.bg-hero-content button{
+	background: #C41D38;
+    border-radius: 50px;
+    border: unset;
+	transition: all 0.5s ease;
+}
+
+.bg-hero-content button:hover{
+	background: #C41D38;
+	opacity: 0.5;
+}
+
+
+
+
+
+/* --------- Sobre --------*/
+
+.waves{
+	position: absolute;
+	bottom: rem;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../Imagens/waves.svg) repeat-x;
+	background-size: contain;
+	z-index: 6;
+	margin: 0;
+	padding: 0;
+}
+
+
+.custom-hr {
+    width: 41px;
+    height: 5px;
+    flex-shrink: 0;
+    background-color: #ab0722; /* Cor de fundo do <hr> */
+    margin: 20px 0; /* Espaçamento superior e inferior (opcional) */
+	opacity: .80;
+	border-top: 0;
+}
+
+.p-4 {
+    padding: 6.5rem!important;
+}
+
+
+.row {
+    --bs-gutter-x: 8rem;
+}
+
+
+#produtos .col-md-4 {
+    margin: 0;
+	padding: 0;
+}
+
+.titulo-produtos {
+	background-color:#E8C1BA;
+	width: 100%;
+	height: 250px;
+	flex-shrink: 0;
+}
+
+
+
+
+.titulo-produtos h2 {
+	text-align: center;
+	padding: 10px;
+	padding-top: 40px;
+}
+
+.custom-hr-2 {
+    width: 41px;
+    height: 5px;
+    flex-shrink: 0;
+    background-color: #ab0722; /* Cor de fundo do <hr> */
+    margin: 20px 0; /* Espaçamento superior e inferior (opcional) */
+	opacity: .80;
+	margin-left: 50%;
+	border-top: 0;
+}
+
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ab0722;
+    --bs-btn-border-color: #ab0722;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #9e2b3e;
+    --bs-btn-hover-border-color: #ab0722;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #ab0722;
+    --bs-btn-active-border-color: #ab0722;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #ab0722;
+    --bs-btn-disabled-border-color: #ab0722;
+	border-radius: 50px;
+}
+
+/* ---------Rodapé--------*/
+
+.container .caixa-contato {
+	height: 100%;
+	margin-bottom: 80px;
+}
+
+.contacts .col-md-3 {
+	background: #dfdfdaeb;
+	padding: 35px 20px;
+	border-radius: 40px;
+}
+
+#cabecalho-contato {
+	padding: 20px;
+	text-align: center;
+}
+
+
+
+footer p a {
+	margin: 5px 15px;
+	color: #ab0722;
+
+}
+
+footer {
+	background: #E8C1BA;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+footer .btn {
+	margin-left: 10px;
+}
+
+
+footer p {
+	margin-bottom: 0;
+}
+
+
+.fas {
+color: #ab0722;
+}
